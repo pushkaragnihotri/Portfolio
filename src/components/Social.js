@@ -31,6 +31,12 @@ class Social extends Component {
                 <a href="https://medium.com/@pushkaragnihotri" target="_blank">
                     <i class="fab fa-medium-m"></i>
                 </a>
+                <a
+                    href="https://www.hackerrank.com/pushkaragnihotri"
+                    target="_blank"
+                >
+                    <i class="fab fa-hackerrank"></i>
+                </a>
             </div>
         );
     }
