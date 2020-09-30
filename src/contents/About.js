@@ -10,11 +10,12 @@ class About extends Component {
 				<h3>Software Engineer</h3>
 				<br></br>
 				<p>
-					I’m 23 years old, Software Development Enthusiast. I've done my B.Tech. from B. S. Anangpuria Institute of
-					Technology & Management in the field of Computer Science & Engineering . R&D is my center of interest, I
-					always love the idea of cross-platform development, I'm having more than one year of experience in Web &
-					AI-based Chatbot Development having with my hands dirty in PHP, Python, JavaScript and their respective
-					Frameworks & Libraries.
+					Strong engineering professional with Bachelor of Technology focussed in Computer Science & Engineering from B.
+					S. Anangpuria Institute of Technology & Management (BSAITM). My centre of interest is R & D. I'm having about
+					2 years of experience in Web, AI-based Chatbots & API Development (Rest & GraphQL). I'm skilled in JavaScript,
+					Python, and their respective Frameworks & Libraries; possess an exclusive understanding of OOP concepts and
+					hands-on experience of RDBMS as well as NoSQL databases. Strong Technical and Analytical Aptitude with hands
+					on creativity experience.
 				</p>
 			</div>
 		)
