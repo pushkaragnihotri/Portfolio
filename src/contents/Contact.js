@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Social from '../components/Social'
+import ContactIcon from '../assets/icons/contact-32px.png'
 
 class Contact extends Component {
 	constructor(props) {
@@ -15,7 +16,10 @@ class Contact extends Component {
 	render() {
 		return (
 			<div className="condiv">
-				<h1 className="subtopic">Contact Me</h1>
+				<h1 className="subtopic">
+					{/* Contact Me <i class="fa fa-link" aria-hidden="true"></i> */}
+					Contact Me <img src={ContactIcon} className="heading-icon" alt="ContactIcon"></img>
+				</h1>
 				<h3>Email : pushkarsharma8696@yahoo.com</h3>
 				{Object.keys(this.state.social).map(key => {
 					return (

@@ -1,11 +1,15 @@
 import React, { Component } from 'react'
 import Widecard from '../components/Widecard'
+import CoursesIcon from '../assets/icons/certificate-32px.png'
 
 class Courses extends Component {
 	render() {
 		return (
 			<div className="condiv">
-				<h1 className="subtopic">Courses & Certification</h1>
+				<h1 className="subtopic">
+					{/* Courses & Certification <i class="fa fa-certificate" aria-hidden="true"></i> */}
+					Courses & Certification <img src={CoursesIcon} className="heading-icon" alt="CoursesIcon"></img>
+				</h1>
 				<Widecard title="Node.js API Masterclass With Express & MongoDB" where="Udemy" from="January 2020" to="NA" />
 				<Widecard title="AWS Fundamentals for Beginners" where="Udemy" from="April 2020" to="NA" />
 				<Widecard

@@ -1,11 +1,15 @@
 import React, { Component } from 'react'
 import Widecard from '../components/Widecard'
+import ExperienceIcon from '../assets/icons/businessman-32px.png'
 
 class Experience extends Component {
 	render() {
 		return (
 			<div className="condiv">
-				<h1 className="subtopic">My Work Experience</h1>
+				<h1 className="subtopic">
+					{/* My Work Experience <i class="fa fa-briefcase" aria-hidden="true"></i> */}
+					My Work Experience <img src={ExperienceIcon} className="heading-icon" alt="ExperienceIcon"></img>
+				</h1>
 				<Widecard
 					title="• Baby Destination Pvt. Ltd."
 					where="55, Community Center, East of Kailash, New Delhi, Delhi-110065, India "

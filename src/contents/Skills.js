@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import SkillsIcon from '../assets/icons/skills-32px.png'
 
 class Skills extends Component {
 	constructor(props) {
@@ -18,7 +19,10 @@ class Skills extends Component {
 	render() {
 		return (
 			<div className="condiv skills">
-				<h1 className="subtopic">My Skills</h1>
+				<h1 className="subtopic">
+					{/* My Skills <i class="fa fa-star" aria-hidden="true"></i> */}
+					My Skills <img src={SkillsIcon} className="heading-icon" alt="SkillsIcon"></img>
+				</h1>
 				<ul>
 					{Object.keys(this.state.mySkills).map(key => {
 						return (
