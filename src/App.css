@@ -21,12 +21,16 @@ body {
 nav {
 	padding: 60px 30px 0px 30px;
 	flex: var(--sidebar-flex);
-	background: rgb(238, 103, 143);
-	background: linear-gradient(180deg, rgba(238, 103, 143, 1) 50%, rgba(132, 124, 252, 1) 80%);
+	background-image: url('assets/images/black-shade-banner.png');
+	/* background: rgb(238, 103, 143);
+	background: linear-gradient(180deg, rgba(238, 103, 143, 1) 50%, rgba(132, 124, 252, 1) 80%); */
 }
 .condiv {
 	padding: 100px;
-	background-color: #f4f5f9;
+	background-image: url('assets/images/wallpaper.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/* background-color: #f4f5f9; */
 	flex: var(--condiv-flex);
 }
 
@@ -92,7 +96,7 @@ h1 {
 .social i {
 	padding-right: 30px;
 	font-size: 25px;
-	color: #9a9b9c;
+	color: dimgray;
 }
 .social i:hover {
 	color: #000000;

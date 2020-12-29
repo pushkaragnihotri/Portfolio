@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactTypingEffect from 'react-typing-effect'
-import displaypic from './../assets/images/displayphotoxx.jpg'
+import displaypic from './../assets/images/dp.jpg'
 import Social from '../components/Social'
 import Emoji from '../components/Emoji'
 
