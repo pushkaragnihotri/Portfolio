@@ -32,6 +32,9 @@ class Social extends Component {
 				<a href="https://leetcode.com/pushkaragnihotri/" target="_blank">
 					<i class="fa fa-code"></i>
 				</a>
+				<a href="spotify:user:909zw06z9nhuv2m8cid8tqk7g" target="_blank">
+					<i class="fa fa-spotify"></i>
+				</a>
 			</div>
 		)
 	}

@@ -9,6 +9,7 @@ import Skills from './contents/Skills'
 import Experience from './contents/Experience'
 import Courses from './contents/Courses'
 import Contact from './contents/Contact'
+import ECA from './contents/ECA'
 
 function App() {
 	return (
@@ -32,6 +33,9 @@ function App() {
 				</Route>
 				<Route path="/courses">
 					<Courses />
+				</Route>
+				<Route path="/eca">
+					<ECA />
 				</Route>
 				<Route path="/contact">
 					<Contact />

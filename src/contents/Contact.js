@@ -25,7 +25,7 @@ class Contact extends Component {
 					return (
 						<h3>
 							{key} :{' '}
-							<a href={this.state.social[key]} target="_blank" style={{ color: 'black' }}>
+							<a href={this.state.social[key]} rel="noopener noreferrer" target="_blank" style={{ color: 'black' }}>
 								☍ pushkaragnihotri
 							</a>
 						</h3>
