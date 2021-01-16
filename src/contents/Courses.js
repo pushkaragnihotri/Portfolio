@@ -25,6 +25,7 @@ class Courses extends Component {
 					from="June 2020"
 					to="NA"
 				/>
+				<Widecard title="Go The Complete Developer's Guide (Golang)" where="Udemy" from="November 2020" to="NA" />
 			</div>
 		)
 	}

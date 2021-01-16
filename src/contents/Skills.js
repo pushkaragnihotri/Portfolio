@@ -7,11 +7,11 @@ class Skills extends Component {
 		this.state = {
 			mySkills: {
 				Personal: 'Interpersonal, Mathematical & Logical Skills',
-				Language: 'JavaScript (Node), Python, PHP, SQL, GraphQL',
+				Language: 'Golang, JavaScript (Node), Python, SQL, GraphQL',
 				Framework: 'Express, Django, Flask, Laravel',
 				Library: 'React, Redux',
 				Database: 'MySQL, MongoDB, DynamoDB',
-				Others: 'Dialogflow, Botpress & GIT',
+				Others: 'Dialogflow, Botpress, Postman & GIT',
 				OS: 'Unix & Windows Family',
 			},
 		}
