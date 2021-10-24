@@ -10,7 +10,7 @@ class About extends Component {
 					About Me <img src={AboutIcon} className="heading-icon" alt="AboutIcon"></img>
 				</h1>
 				<h4>Hey there,</h4>
-				<h1>I'm Pushkar Sharma</h1>
+				<h1>I'm Pushkar Sharma!</h1>
 				<h3>Software Engineer</h3>
 				<br></br>
 				<i>
@@ -21,19 +21,19 @@ class About extends Component {
 						</p>
 						<br></br>
 						<p>
-							<i class="fa fa-code-fork" aria-hidden="true"></i> I possess 2 years' of work experience in Web
-							Development, AI-based Chatbots & API (Rest & GraphQL) Development. I'm skilled in JavaScript, Python, and
+							<i class="fa fa-code" aria-hidden="true"></i> I possess 3 years' of work experience in Web Development,
+							AI-based Chatbots & especially API (Rest & GraphQL) Development. I'm skilled in Golang, JavaScript, and
 							their respective Frameworks & Libraries; possess an exclusive understanding of OOP concepts and hands-on
-							experience of RDBMS as well as NoSQL databases.
+							experience of RDBMS as well as NoSQL databases. I also have decent knowledge of Python.
 						</p>
 						<br></br>
 						<p>
-							<i class="fa fa-bolt"></i> Searching for a fast-paced, fun culture where I am surrounded by passionate and
-							motivated technologists who band together to solve a challenging problem.
+							<i class="fa fa-search"></i> Searching for a fast-paced, fun culture where I am surrounded by passionate
+							and motivated technologists who band together to solve a challenging problem.
 						</p>
 						<br></br>
 						<p>
-							<i class="fa fa-code"></i> I am a highly motivated, curious, energetic problem solver who has a very
+							<i class="fa fa-bolt"></i> I am a highly motivated, curious, energetic problem solver who has a very
 							strong desire to learn and grow and loves to code!
 						</p>
 					</b>

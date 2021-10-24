@@ -8,10 +8,11 @@ class Skills extends Component {
 			mySkills: {
 				Personal: 'Interpersonal, Mathematical & Logical Skills',
 				Language: 'Golang, JavaScript (Node), Python, SQL, GraphQL',
-				Framework: 'Express, Django, Flask, Laravel',
-				Library: 'React, Redux',
-				Database: 'MySQL, MongoDB, DynamoDB',
+				Framework: 'Express, Django, Flask',
+				Library: 'React-Redux',
+				Database: 'MySQL, MongoDB, DynamoDB, PostgreSQL',
 				Others: 'Dialogflow, Botpress, Postman & GIT',
+				Clouds: 'AWS',
 				OS: 'Unix & Windows Family',
 			},
 		}
@@ -27,7 +28,7 @@ class Skills extends Component {
 					{Object.keys(this.state.mySkills).map(key => {
 						return (
 							<li>
-								<span style={{ fontWeight: 'bold' }}>• {key}</span> - {this.state.mySkills[key]}
+								<span style={{ fontWeight: 'bold' }}>{key}</span> ➟ {this.state.mySkills[key]}
 							</li>
 						)
 					})}
