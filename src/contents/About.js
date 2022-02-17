@@ -14,29 +14,32 @@ class About extends Component {
 				<h3>Software Engineer</h3>
 				<br></br>
 				<i>
-					<b>
+					<span style={{ fontWeight: '500' }}>
 						<p>
-							<i class="fa fa-hand-o-right"></i> Strong engineering professional with Bachelor of Technology focussed in
-							Computer Science & Engineering from B. S. Anangpuria Institute of Technology & Management (BSAITM).
+							<i class="fa fa-hand-o-right"></i> Strong engineering professional with <b>Bachelor of Technology</b>{' '}
+							focussed in
+							<b> Computer Science & Engineering</b> from{' '}
+							<b>B. S. Anangpuria Institute of Technology & Management (BSAITM)</b>.
 						</p>
 						<br></br>
 						<p>
-							<i class="fa fa-code" aria-hidden="true"></i> I possess 3 years' of work experience in Web Development,
-							AI-based Chatbots & especially API (Rest & GraphQL) Development. I'm skilled in Golang, JavaScript, and
-							their respective Frameworks & Libraries; possess an exclusive understanding of OOP concepts and hands-on
-							experience of RDBMS as well as NoSQL databases. I also have decent knowledge of Python.
+							<i class="fa fa-code" aria-hidden="true"></i> I possess <b>3 years' of work experience</b> in Web
+							Development, AI-based Chatbots & especially <b>API (Rest & GraphQL) Development</b>. I'm{' '}
+							<b>skilled in Golang, JavaScript</b>, and their respective Frameworks & Libraries; possess an exclusive
+							understanding of OOP concepts and hands-on experience of RDBMS as well as NoSQL databases. I also have
+							decent knowledge of Python.
 						</p>
 						<br></br>
-						<p>
+						{/* <p>
 							<i class="fa fa-search"></i> Searching for a fast-paced, fun culture where I am surrounded by passionate
 							and motivated technologists who band together to solve a challenging problem.
 						</p>
-						<br></br>
+						<br></br> */}
 						<p>
-							<i class="fa fa-bolt"></i> I am a highly motivated, curious, energetic problem solver who has a very
-							strong desire to learn and grow and loves to code!
+							<i class="fa fa-bolt"></i> I am a highly <b>motivated, curious, energetic problem solver</b> who has a
+							very strong desire to learn and grow and loves to code!
 						</p>
-					</b>
+					</span>
 				</i>
 			</div>
 		)

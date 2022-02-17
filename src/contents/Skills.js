@@ -7,7 +7,7 @@ class Skills extends Component {
 		this.state = {
 			mySkills: {
 				Personal: 'Interpersonal, Mathematical & Logical Skills',
-				Language: 'Golang, JavaScript (Node), Python, SQL, GraphQL',
+				Language: 'Golang, JavaScript (Node.js), Python, SQL, GraphQL',
 				Framework: 'Express, Django, Flask',
 				Library: 'React-Redux',
 				Database: 'MySQL, MongoDB, DynamoDB, PostgreSQL',
@@ -28,7 +28,7 @@ class Skills extends Component {
 					{Object.keys(this.state.mySkills).map(key => {
 						return (
 							<li>
-								<span style={{ fontWeight: 'bold' }}>{key}</span> ➟ {this.state.mySkills[key]}
+								<b>{key}</b> ➟ <span style={{ fontWeight: '500' }}>{this.state.mySkills[key]}</span>
 							</li>
 						)
 					})}
